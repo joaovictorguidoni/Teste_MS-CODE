@@ -1,0 +1,30 @@
+#corpo{ 
+    background-image: linear-gradient(#f49595, rgb(255, 238, 238) 15%);
+  }
+  #titulo{
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    text-align: center;    
+    font-size: 40px;
+  }
+ 
+  #texto {
+    color: white;
+    font-size: 40px;
+    text-align: justify;
+  }
+  .button{
+    cursor:pointer;       
+  }
+  .botao {
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+  }
+  #logo{
+    width: 30%;
+    float: right;
+  }
+  #message{
+    width: 40%;
+  }

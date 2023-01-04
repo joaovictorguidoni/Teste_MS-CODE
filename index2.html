@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>
+            Pesquisa de Satisfação
+        </title>
+        <link href="style2.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body id="corpo" >
+        <h1 id="titulo">Pesquisa de Satisfação, sua opnião e muito importante para nós...</h1>                
+        <form>
+            <ul class="flex-outer"></ul>
+              <li>
+                <label for="first-name">Nome</label>
+                <input type="text" id="first-name" placeholder="Digite seu nome">
+              </li>             
+              <li>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail">
+              </li>
+              <li>
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" placeholder="Digite seu telefone">
+              </li> 
+
+                <div><p>
+                    <label> Data de Nascimento: <input type="date" name="nascimento" id="data-de-nascimento" ></label></p><br>
+                </div>             
+              
+    
+              <div class="linha"><p>
+
+                <label>Sexo:
+                    <input name="masc" type="radio" value="masculino" />Masculino
+                </label>
+                <label>
+                    <input name="fem" type="radio" value="feminino" />Feminino
+                <label>
+                </label>
+                    <input name="flex-outer" type="radio" value="outro" />Outro
+                </label></p>
+                </div>
+
+                <div class="linha2"><p>
+
+                <label>Estado:
+                    <select name="estado" id="estado">
+                        <option>ES</option>                            
+                        <option>MG</option>
+                        <option>RJ</option>
+                        <option>SP</option>
+                        
+                    </select>
+                    </label></p>
+                 </div>
+
+                <div>
+                    <label><p>
+                        Defina seu nível de satisfação:<br>
+                        Pouco satisfeito
+                        <input type="range" name="satisfacao" min="0" max="10">
+                        Muito satisfeito
+                    </label></p><br>
+                </div>
+
+                <li>
+                    <label for="message">Comentários:</label>
+                    <textarea rows="4" id="message" placeholder="Deixe seu comentário:"></textarea>
+                </li>
+
+                <li><p>
+                    <button type="submit">Enviar</button><br></p>
+                </li>
+            </ul>
+            <li>
+                <img src="Logo_Simonetti.png" id="logo">
+            </li>
+        </form>
+    
+    </body>
+</html>

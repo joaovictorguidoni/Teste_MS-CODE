@@ -1,0 +1,28 @@
+body{
+    background-image: url("Logo_fundo_branco.png");    
+    background-size: 30%;
+    background-repeat: no-repeat;
+  }
+  #titulo_principal{
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    text-align: center;    
+    font-size: 60px;
+    float: center;
+    padding: 09%;
+  }
+
+  .button{
+    cursor:pointer;       
+  }
+  .botao {
+    width: 100px;
+    height: 60px;
+    font-size: 35px;
+    background-color: rgb(253, 253, 253); 
+    border: none; 
+    
+  }
+
+  
+  
